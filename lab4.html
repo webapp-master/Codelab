@@ -27,6 +27,14 @@
         a {
             text-decoration: none;
         }
+
+        /* Add this CSS to customize the background color */
+        .custom-card-bg {
+            background-color: #f8f9fa;
+            /* Replace with your desired background color */
+            padding: 20px;
+            /* Adjust the padding as needed */
+        }
     </style>
 
 </head>
@@ -38,10 +46,9 @@
 
             <!-- First Box -->
             <div class="col-6 col-md-4 col-lg-3 mt-4 mb-4">
-
-                <a href="">
-                    <div class="card custom-card">
-                        <div class="card-body p-3 text-center">
+                <div class="card custom-card">
+                    <div class="card-body custom-card-bg"> <!-- New div with custom background color -->
+                        <div class="card-body p-3 text-center" style="background-color: #b1b6b9">
                             <span style="font-size: 30px;">
                                 <i class="fas fa-hospital"></i>
                             </span>
@@ -49,13 +56,13 @@
                             <div id="malariaCount" class="h2">Loading...</div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
 
             <!-- Second Box -->
             <div class="col-6 col-md-4 col-lg-3 mt-4 mb-4">
-                <a href="">
-                    <div class="card custom-card">
+                <div class="card custom-card">
+                    <div class="card-body custom-card-bg"> <!-- New div with custom background color -->
                         <div class="card-body p-3 text-center">
                             <span style="font-size: 30px;">
                                 <i class="fas fa-hospital"></i>
@@ -64,8 +71,9 @@
                             <div id="diabetesCount" class="h2">Loading...</div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
+
 
             <!-- Repeat for all 12 boxes -->
         </div>
