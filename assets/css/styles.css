@@ -97,7 +97,7 @@ img {
 }
 
 .header__logo {
-  color: #f8f9fa;
+  color:  blue;
   font-weight: var(--font-semi-bold);
   display: none;
 }
