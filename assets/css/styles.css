@@ -192,7 +192,7 @@ img {
 
 /* ========== FOOTER ========== */
 .footer {
-  background-color: rgb(221, 228, 232);
+  background-color: #fff;
   color: var(--first-color-light);
   padding: 1rem 0;
   text-align: center; /* Center-align the content */
